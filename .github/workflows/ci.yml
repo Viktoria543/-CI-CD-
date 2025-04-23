@@ -27,6 +27,9 @@ jobs:
     - name: Install Stylelint config
       run: npm install stylelint-config-standard --save-dev
 
+    - name: Auto-fix stylelint issues
+      run: npx stylelint styles.css --fix
+
     - name: Validate CSS
       run: stylelint styles.css
       
