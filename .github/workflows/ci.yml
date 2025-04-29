@@ -22,7 +22,7 @@ jobs:
       run: npm install -g htmlhint stylelint jshint
 
     - name: Install Styleint-Config
-      run: npm install stylelint-config-standard --save-dev
+      run: npm install --save-dev stylelint-config-standard
 
     - name: Validate HTML
       run: htmlhint index.html
