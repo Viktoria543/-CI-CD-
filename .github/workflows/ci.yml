@@ -31,7 +31,7 @@ jobs:
       run: stylelint style.css --fix
 
     - name: Validate JavaScript
-      run: jshint app.js
+      run: jshint app.js --fix
 
     - name: Run Tests
       run: node test.js
