@@ -28,7 +28,7 @@ jobs:
       run: htmlhint index.html
 
     - name: Validate CSS
-      run: stylelint style.css
+      run: stylelint style.css --fix
 
     - name: Validate JavaScript
       run: jshint app.js
