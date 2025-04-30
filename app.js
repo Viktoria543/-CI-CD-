@@ -49,7 +49,18 @@ const quizQuestions = [
             "Рідкі але великі коміти в репозиторій"
         ],
         correctAnswer: 1
+    },
+    {
+        question: "Яка з цих команд використовується для клонування Git репозиторію?",
+        options: [
+            "git push",
+            "git pull",
+            "git clone",
+            "git commit"
+        ],
+        correctAnswer: 2
     }
+
 ];
 
 // Ініціалізація змінних
